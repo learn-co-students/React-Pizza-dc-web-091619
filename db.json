@@ -15,12 +15,12 @@
     {
       "id": 3,
       "topping": "Mushroom spinach",
-      "size": "Large",
+      "size": "Medium",
       "vegetarian": true
     },
     {
       "id": 4,
-      "topping": "Sausage",
+      "topping": "Sausage mix",
       "size": "Small",
       "vegetarian": false
     },
@@ -38,9 +38,9 @@
     },
     {
       "id": 7,
-      "topping": "Black Olive",
-      "size": "Medium",
-      "vegetarian": true
+      "topping": "Black Olive with eggs",
+      "size": "Small",
+      "vegetarian": false
     },
     {
       "id": 8,
