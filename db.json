@@ -44,9 +44,9 @@
     },
     {
       "id": 8,
-      "topping": "Pineapple",
-      "size": "Medium",
-      "vegetarian": true
+      "topping": "Pineapple and HAM",
+      "size": "Large",
+      "vegetarian": false
     },
     {
       "id": 9,

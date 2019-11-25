@@ -67,7 +67,7 @@ class App extends Component {
     return (
       <Fragment>
         <Header/>
-        <PizzaForm submitForm={this.submitForm} changeValue={this.changeValue} topping={this.state.selectedPizza &&this.state.selectedPizza.topping} size={this.state.selectedPizza && this.state.selectedPizza.size} vegetarian={this.state.selectedPizza && this.state.selectedPizza.vegetarian}/>
+        <PizzaForm submitForm={this.submitForm} changeValue={this.changeValue} topping={this.state.selectedPizza.topping} size={this.state.selectedPizza.size} vegetarian={this.state.selectedPizza.vegetarian}/>
         <PizzaList addPizzaToForm={this.addPizzaToForm} currentPizzas={this.state.currentPizzas}/>
       </Fragment>
     );
